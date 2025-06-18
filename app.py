@@ -3,7 +3,7 @@ import pickle
 
 # Load the model
 with open('model.pkl', 'rb') as file:
-    model = pickle.load(file)
+    model = pickle.load(files)
 
 # Ask user to input values
 size = int(input("Enter Size (in sqft): "))
